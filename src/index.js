@@ -14,7 +14,7 @@ export default function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Layout />}>
-                    <Route path={"orders"} element={<Orders />} />
+                    <Route path="orders" element={<Orders />} />
                     <Route path="payments" element={<Payments />} />
                     <Route path="products" element={<Products />} />
                     <Route path="users" element={<Users />} />
